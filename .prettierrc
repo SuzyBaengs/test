@@ -4,5 +4,6 @@
   "trailingComma": "none",
   "printWidth": 200,
   "bracketSpacing": true,
-  "htmlWhitespaceSensitivity": "ignore"
+  "htmlWhitespaceSensitivity": "ignore",
+  "resolveConfig": true
 }

@@ -35,7 +35,7 @@ module.exports = {
   ],
 
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh'],
+  plugins: ['react-refresh', 'prettier'],
 
   // add your custom rules here
   rules: {
@@ -44,6 +44,9 @@ module.exports = {
     'vue/script-setup-uses-vars': 'off',
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'vue/no-v-html': 'off'
+    'vue/no-v-html': 'off',
+    'prettier/prettier': 'error',
+    'arrow-body-style': 'off',
+    'prefer-arrow-callback': 'off'
   }
 }
