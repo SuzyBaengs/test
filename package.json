@@ -11,9 +11,14 @@
     "preCommit": "lint-staged",
     "test": "jest"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
-      "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+      "eslint --fix",
       "prettier --write",
       "git add"
     ]
