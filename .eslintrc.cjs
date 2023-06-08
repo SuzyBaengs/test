@@ -30,11 +30,11 @@ module.exports = {
   extends: [
     'standard',
     'plugin:@typescript-eslint/recommended',
-    'plugin:react-hooks/recommended'
+    'plugin:react-hooks/recommended',
+    "plugin:prettier/recommended"
   ],
 
   parser: '@typescript-eslint/parser',
-  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
   plugins: ['react-refresh'],
 
   // add your custom rules here
