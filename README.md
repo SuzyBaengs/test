@@ -1,4 +1,5 @@
 # test
+Case study on husky+lint-staged+eslint+prettier 
 ```javascript
 npm install
 ```
